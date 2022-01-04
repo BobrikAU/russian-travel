@@ -3,3 +3,18 @@
   margin-bottom: 92px;
 }
 
+.page__section:last-child {
+  margin-bottom: 0;
+}
+
+@media  screen and (max-width: 778px) {
+  .page__section {
+    margin-bottom: 88px;
+  }
+}
+
+@media  screen and (max-width: 330px) {
+  .page__section {
+    margin-bottom: 64px;
+  }
+}

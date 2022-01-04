@@ -1,0 +1,22 @@
+.travel-russia__comment-photo {
+  margin: 0;
+  align-self: flex-start;
+  font-size: 10px;
+  line-height: 1.4;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+@media  screen and (max-width: 778px) {
+  .travel-russia__comment-photo {
+    padding-left: 24px;
+  }
+}
+
+@media  screen and (max-width: 330px) {
+  .travel-russia__comment-photo {
+    padding-left: 16px;
+  }
+}
+

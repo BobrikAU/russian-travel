@@ -1,0 +1,13 @@
+.to-baikal__text {
+  position: absolute;
+  top: calc(50% - 125px);
+  left: calc(50% - 280px);
+  z-index: 3;
+}
+
+@media screen and (max-width: 330px) {
+  .to-baikal__text {
+    top: calc(50% - 67px);
+    left: calc(50% - 144px);
+  }
+}

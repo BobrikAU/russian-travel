@@ -1,0 +1,17 @@
+.to-baikal__subtitle {
+  max-width: 360px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+@media screen and (max-width: 330px) {
+  .to-baikal__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}

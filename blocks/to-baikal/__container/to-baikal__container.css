@@ -1,0 +1,15 @@
+.to-baikal__container {
+  width: 100%;
+  padding-bottom: calc(100%/1.6);
+  background-image: url(../../../images/to-baikal.jpg);
+  background-size: 100%;
+  opacity: .7;
+}
+
+.to-baikal__container:hover {
+  opacity: .2;
+}
+
+.to-baikal__text:hover + .to-baikal__container {
+  opacity: .2;
+}

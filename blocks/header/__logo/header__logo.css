@@ -1,17 +1,19 @@
 .header__logo {
   width: 176px;
-  margin: 28px 0 0 48px;
+  padding-left: 48px;
+  padding-top: 28px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 778px) {
   .header__logo {
-    margin: 28px 0 0 24px;
+    padding-left: 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
   .header__logo {
     width: 142px;
-    margin: 16px 0 0 16px;
+    padding-left: 16px;
+    padding-top: 16px;
   }
 }
