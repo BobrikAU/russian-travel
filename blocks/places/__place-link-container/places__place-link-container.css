@@ -2,7 +2,7 @@
   align-self: end;
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 550px) {
   .places__place-link-container {
     padding: 0 16px 0;
   }

@@ -2,7 +2,7 @@
   align-self: start;
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 550px) {
   .places__place-text {
     padding: 0 16px 0;
   }

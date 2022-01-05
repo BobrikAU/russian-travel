@@ -1,11 +1,6 @@
 .why-russia {
   max-width: 984px;
-}
-
-@media screen and (max-width: 1034px) {
-  .why-russia {
-    padding: 0 48px;
-  }
+  padding: 0 48px;
 }
 
 @media screen and (max-width: 778px) {
