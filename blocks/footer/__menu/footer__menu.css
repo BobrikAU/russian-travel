@@ -1,0 +1,16 @@
+.footer__menu {
+  margin-left: 48px;
+}
+
+@media screen and (max-width: 778px) {
+  .footer__menu {
+  margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .footer__menu {
+    margin-left: 16px;
+    margin-bottom: 48px;
+  }
+}

@@ -1,5 +1,14 @@
 .footer {
-  border: 1px solid red;
   max-width: 1280px;
-  min-height: 50px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 330px) {
+  .footer {
+    display: block;
+  }
 }

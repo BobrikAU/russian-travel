@@ -3,8 +3,14 @@
   margin-bottom: 92px;
 }
 
-.page__section:last-child {
-  margin-bottom: 0;
+.page__section:first-child {
+  margin-bottom: 56px;
+}
+
+@media screen and (max-width: 1034px) {
+  .page__section:first-child {
+    margin-bottom: 48px;
+  }
 }
 
 @media  screen and (max-width: 778px) {
