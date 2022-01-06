@@ -2,7 +2,7 @@
   margin-left: 48px;
 }
 
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 900px) {
   .footer__menu {
   margin-left: 24px;
   }
