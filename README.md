@@ -26,4 +26,4 @@ Web-страница сформирована с использованием HT
 
 ### Опубликование проекта
 
-C web-страницей можно ознакомиться [здесь](https://bobrikau.github.io/russian-travel/).
+C web-страницей можно ознакомиться [здесь](https://bobrikau.github.io/russian-travel/index.html).
