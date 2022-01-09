@@ -16,52 +16,54 @@
   <!--шапка страницы-->
   <header class="header page__section">
     <img src="./images/logo_Russia.svg" alt="Логотип: контуры границ России и ее название" class="header__logo">
-    <div class="header__lang">
-      <a href="#" class="header__lang-link header__lang-link_open">Ru</a>
-      <a href="#" class="header__lang-link">En</a>
-    </div>
+    <ul class="header__lang-list">
+      <li class="header__lang-item"><a href="#" class="header__lang-link header__lang-link_open">Ru</a></li>
+      <li class="header__lang-item"><a href="#" class="header__lang-link">En</a></li>
+    </ul>
   </header>
 
   <!--главное содержание страницы-->
   <main>
 
     <!--раздел, содержащий призыв к путешествиям-->
-    <section class="travel-russia page__section">
-      <div class="travel-russia__container">
-        <h1 class="travel-russia__title">Путешествия по России</h1>
-        <p class="travel-russia__motto">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img src="./images/train-sleeping.jpg" alt="фотография плацкартного вагона изнутри" class="travel-russia__photo-carriage">
-        <p class="travel-russia__comment-photo">ваша полка — верхняя</p>
-      </div>
+    <section class="topic page__section">
+      <h1 class="topic__title">Путешествия по России</h1>
+      <p class="topic__motto">Настоящая страна не в выпусках новостей, а здесь.</p>
+      <figure class="topic__photo-container">
+        <img src="./images/train-sleeping.jpg" alt="фотография плацкартного вагона изнутри" class="topic__photo-carriage">
+        <figcaption class="topic__comment-photo">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
 
     <!--раздел о том, почему надо путешествовать в России-->
-    <section class="why-russia page__section">
-      <h2 class="why-russia__title">Чего мы там не видели?</h2>
-      <p class="why-russia__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-      <ul class="why-russia__statistics">
-        <li class="why-russia__statistic-item">Часовых поясов 11</li>
-        <li class="why-russia__statistic-item">Объектов природного наследия ЮНЕСКО 12</li>
-        <li class="why-russia__statistic-item">Объектов культурного наследия ЮНЕСКО 16</li>
-        <li class="why-russia__statistic-item">Природных заповедников 105</li>
-        <li class="why-russia__statistic-item">Аэропортов 241</li>
+    <section class="intro page__section">
+      <h2 class="intro__title">Чего мы там не видели?</h2>
+      <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+      <ul class="intro__statistics">
+        <li class="intro__statistic-item">Часовых поясов <span class="intro__statistic-item_font_weight-normal">11</span></li>
+        <li class="intro__statistic-item">Объектов природного наследия ЮНЕСКО <span class="intro__statistic-item_font_weight-normal">12</span></li>
+        <li class="intro__statistic-item">Объектов культурного наследия ЮНЕСКО <span class="intro__statistic-item_font_weight-normal">16</span></li>
+        <li class="intro__statistic-item">Природных заповедников <span class="intro__statistic-item_font_weight-normal">105</span></li>
+        <li class="intro__statistic-item">Аэропортов <span class="intro__statistic-item_font_weight-normal">241</span></li>
       </ul>
     </section>
 
     <!--фотографии интересных мест в России-->
     <section class="photos page__section">
-      <img src="./images/photo_01.jpg" alt="вид из окна вагона" class="photos__photo">
-      <img src="./images/photo_02.jpg" alt="облака над горами: вид сверху" class="photos__photo">
-      <img src="./images/photo_03.jpg" alt="поле после сенокоса на заре" class="photos__photo">
-      <img src="./images/photo_04.jpg" alt="лес на склоне горы в тумане" class="photos__photo">
-      <img src="./images/photo_05.jpg" alt="колесо автомобиля на льду" class="photos__photo">
-      <img src="./images/photo_06.jpg" alt="морское побережье" class="photos__photo">
-      <img src="./images/photo_07.jpg" alt="горная гряда" class="photos__photo">
-      <img src="./images/photo_08.jpg" alt="волнорез" class="photos__photo">
-      <img src="./images/photo_09.jpg" alt="туман над холмами: вид сверху" class="photos__photo">
-      <img src="./images/photo_10.jpg" alt="одинокая гора за долиной" class="photos__photo">
-      <img src="./images/photo_11.jpg" alt="скалистое морское побережье" class="photos__photo">
-      <img src="./images/photo_12.jpg" alt="туман в горах" class="photos__photo">
+      <ul class="photos__list">
+        <li class="photos__item"><img src="./images/photo_01.jpg" alt="вид из окна вагона" class="photos__photo"></li>
+        <li class="photos__item"><img src="./images/photo_02.jpg" alt="облака над горами: вид сверху" class="photos__photo"></li>
+        <li class="photos__item"><img src="./images/photo_03.jpg" alt="поле после сенокоса на заре" class="photos__photo"></li>
+        <li class="photos__item"><img src="./images/photo_04.jpg" alt="лес на склоне горы в тумане" class="photos__photo"></li>
+        <li class="photos__item"><img src="./images/photo_05.jpg" alt="колесо автомобиля на льду" class="photos__photo"></li>
+        <li class="photos__item"><img src="./images/photo_06.jpg" alt="морское побережье" class="photos__photo"></li>
+        <li class="photos__item"><img src="./images/photo_07.jpg" alt="горная гряда" class="photos__photo"></li>
+        <li class="photos__item"><img src="./images/photo_08.jpg" alt="волнорез" class="photos__photo"></li>
+        <li class="photos__item"><img src="./images/photo_09.jpg" alt="туман над холмами: вид сверху" class="photos__photo"></li>
+        <li class="photos__item"><img src="./images/photo_10.jpg" alt="одинокая гора за долиной" class="photos__photo"></li>
+        <li class="photos__item"><img src="./images/photo_11.jpg" alt="скалистое морское побережье" class="photos__photo"></li>
+        <li class="photos__item"><img src="./images/photo_12.jpg" alt="туман в горах" class="photos__photo"></li>
+      </ul>
     </section>
 
     <!--описания различных мест в России, интересных путешественникам-->
@@ -130,13 +132,10 @@
         </li>
       </ul>
     </section>
-    <section class="to-baikal page__section">
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="to-baikal__link">
-        <div class="to-baikal__text">
-          <h2 class="to-baikal__title">До Байкала «на собаках»</h2>
-          <p class="to-baikal__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-        </div>
-        <div class="to-baikal__container"></div>
+    <section class="cover page__section">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
       </a>
     </section>
   </main>

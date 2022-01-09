@@ -4,6 +4,7 @@
   line-height: 1.22;
   font-style: normal;
   font-weight: 400;
+  transition: opacity .5s;
 }
 
 .places__place-link:hover {

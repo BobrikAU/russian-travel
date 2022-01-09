@@ -3,12 +3,12 @@
   margin-bottom: 92px;
 }
 
-.page__section:first-child {
+.header.page__section {
   margin-bottom: 56px;
 }
 
 @media screen and (max-width: 1034px) {
-  .page__section:first-child {
+  .header.page__section {
     margin-bottom: 48px;
   }
 }

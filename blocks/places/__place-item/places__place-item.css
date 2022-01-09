@@ -3,9 +3,10 @@
   margin: 0 auto 80px;
   padding: 0 48px;
   display: grid;
-  grid-template-columns: calc((100% - 40px)/2 - 12px) calc((100% - 40px)/2 + 12px);
+  grid-template-columns: calc(50% - 32px) calc(50% - 8px);
   grid-template-rows: repeat(2, auto);
   gap: 48px 40px;
+  line-height: 0;
 }
 
 .places__place-item:last-child {
@@ -14,7 +15,7 @@
 
 @media screen and (max-width: 1034px) {
   .places__place-item {
-    grid-template-columns: calc((100% - 32px)/2 - 8px) calc((100% - 32px)/2 + 8px);
+    grid-template-columns: calc(50% - 24px) calc(50% - 8px);
     gap: 48px 32px;
   }
 }
@@ -23,7 +24,7 @@
   .places__place-item {
     padding: 0 24px;
     margin: 0 auto 73px;
-    grid-template-columns: calc((100% - 28px)/2 - 6px) calc((100% - 28px)/2 + 6px);
+    grid-template-columns: calc(50% - 20px) calc(50% - 8px);
     gap: 48px 28px;
   }
 }

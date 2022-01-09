@@ -1,0 +1,38 @@
+.topic__motto {
+  margin: 0 0 64px;
+  max-width: 640px;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: normal;
+  text-align: center;
+}
+
+@media screen and (max-width: 1034px) {
+  .topic__motto {
+    margin: 0 0 56px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .topic__motto {
+    max-width: 464px;
+    font-size: 23px;
+    line-height: 1.225;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .topic__motto {
+    max-width: 404px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topic__motto {
+    max-width: 288px;
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 0 0 40px;
+  }
+}
