@@ -19,7 +19,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__statistics/intro__statistics.css);
 @import url(../blocks/intro/__statistic-item/intro__statistic-item.css);
-@import url(../blocks/intro/__statistic-item/_font/intro__statistic-item_font_weight-normal.css);
+@import url(../blocks/intro/__number/intro__number.css);
 @import url(../blocks/photos/photos.css);
 @import url(../blocks/photos/__list/photos__list.css);
 @import url(../blocks/photos/__item/photos__item.css);
